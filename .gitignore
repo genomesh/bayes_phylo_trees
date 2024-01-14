@@ -1,0 +1,6 @@
+data*
+!data_*
+iqtree*
+output*
+*.csv
+.Rhistory

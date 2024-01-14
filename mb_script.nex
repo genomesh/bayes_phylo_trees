@@ -1,0 +1,6 @@
+begin mrbayes;
+    set autoclose=yes nowarn=yes;
+    exe gene.nex;
+    lset nst=6 rates=invgamma;
+    mcmc nruns=1 ngen=300000 samplefreq=200;
+    quit;
