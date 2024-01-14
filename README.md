@@ -1,4 +1,4 @@
-# Bayesian Inference of Phylogenetic Trees
+# Bayesian Inference of Phylogenetic Trees
 
 This work was done during a research internship at the STOR-i CDT at Lancaster University, under the supervision of [Georgios Aliatimis](https://www.lancaster.ac.uk/dsi/about-us/members/george-aliatimis). Please see the attached poster or slides for a more detailed description of the project.
 
