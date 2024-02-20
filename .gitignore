@@ -4,3 +4,4 @@ iqtree*
 output*
 *.csv
 .Rhistory
+.DS_Store

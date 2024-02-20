@@ -225,6 +225,16 @@ ggplot(combined_data, aes(x=min_length, y=prop_in_majority, colour=dataset)) +
   geom_point(alpha=0.95) +
   ylim(0,1)
 
+ggplot(housekeeping_data, aes(x=min_length, y=prop_in_majority, col = mle_in_majority)) +
+  geom_point(size = 2, alpha = 0.9)
+
+ggplot(alkaloids_data, aes(x=min_length, y=prop_in_majority, col = mle_in_majority)) +
+  geom_point(size = 4, alpha = 0.65) +
+  labs(x = 'Minimim branch length in most likely tree',
+       y = 'Proportion with majority structure',
+       col = 'MLT in majority?')
+
+
 # add legend
 # conclusions?
 # better way to represent data
